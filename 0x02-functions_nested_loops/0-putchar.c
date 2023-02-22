@@ -3,7 +3,7 @@
 /**
  * main - print _putchar
  * Description: Written by Hiri
- * Return:0
+ * Return: 0
  */
 
 int main(void)
