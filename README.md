@@ -1,1 +1,1 @@
-Learning c programming
+Learning ansd creating solutions to C programming
