@@ -4,7 +4,7 @@
 /**
  * sum_them_all - returns the sum of passed unsigned integer parameters
  * @n: integer parameter to be passed
- * Return: Always 0  
+ * Return: Always 0
  */
 int sum_them_all(const unsigned int n, ...)
 {
@@ -14,7 +14,7 @@ int sum_them_all(const unsigned int n, ...)
 
 	if (n == 0)
 		return (0);
-	
+
 	sum = 0;
 
 	va_start(my_list, n);
