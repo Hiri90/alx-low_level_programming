@@ -10,8 +10,8 @@
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list my_list;
-	unsigned count;
-	
+	unsigned int count;
+
 	va_start(my_list, n);
 
 	for (count = 0; count < n; count++)
