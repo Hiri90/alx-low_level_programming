@@ -4,7 +4,7 @@
 
 /**
  * print_strings - function that prints a string
- * @separtor: separates two strings
+ * @separator: separates two strings
  * @n: parameter passed to the strings
  * Returns: nothing
  */
