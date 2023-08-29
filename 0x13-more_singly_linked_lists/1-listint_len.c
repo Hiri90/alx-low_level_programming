@@ -9,13 +9,14 @@
  */
 size_t listint_len(const listint_t *h)
 {
-	const listint_t *indicator *h;
-	size_t count = 0;
+
+	size_t nnodes = 0;
 
 	while (h != NULL)
 	{
-		count++;
-		indicator = indicator->next;
+		h = h->next;
+		nnodes++;
 	}
-	return (count);
+	return (nnodes);
 }
+
